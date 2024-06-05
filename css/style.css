@@ -1,0 +1,875 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica ;
+    font-size: 14px;
+    color: #555;
+    min-width:320px;
+    overflow-x: hidden;
+}
+input,textarea,select{
+	font-family: sans-serif, Arial, Helvetica ;
+}
+
+/* Home page css */
+
+
+#home {
+    background-color: white;
+}
+
+#home .navbar {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+}
+
+#home .logo {
+    display: flex;
+    margin-left: 90px;
+}
+
+.logo .logoimg {
+    margin-left: 10px;
+
+}
+
+.logo .logoname {
+    margin-top: 15px;
+    padding-left: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+
+    justify-content: center;
+    margin-left: 200px;
+
+}
+
+ul {
+    align-items: center;
+    display: flex;
+
+
+}
+
+ul li {
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: none;
+
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    text-decoration: solid 2px black;
+    font-size: 15px;
+
+
+}
+
+.menu ul li a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 2ms;
+
+}
+
+
+
+.signpage {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+
+
+}
+
+.signpage a {
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.signpage button {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.para {
+    flex: 1;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.para h2 {
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 50px;
+    padding-bottom: 5px;
+
+}
+
+.para p {
+    margin-left: 40px;
+    font-weight: 40px;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    font-size: 20px;
+}
+
+.para .btn {
+    margin-left: 45px;
+
+}
+
+.btn .b1 {
+
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.btn .b2 {
+
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.btn img {
+    max-width: 35px;
+    margin-bottom: -13px;
+    margin-left: 5px;
+
+}
+
+
+
+.image img {
+    max-width: 490px;
+    margin: 20px;
+    margin-right: 150px;
+}
+
+.bottom1 span {
+    font-weight: bold;
+}
+
+#home #bottom {
+    padding-bottom: 40px;
+
+}
+
+
+#home #bottom p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+#home #bottom div {
+    display: flex;
+    justify-content: center;
+
+}
+
+#home #bottom div img {
+    width: 100;
+    height: 100;
+    padding: 20px;
+    max-width: 120px;
+
+}
+
+/* About us page */
+
+#about {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    background-color:#FFFCF3;
+}
+
+#about .container {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
+
+}
+
+
+
+#about .container1 {}
+
+#about .container1 h5 {
+    margin-bottom: 25px;
+
+}
+
+#about .container1 h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
+
+#about .container1 img {
+    max-width: 500px;
+
+}
+
+#about .container2 .first {
+    margin-left: 40px;
+    margin-top: 190px;
+
+}
+
+
+#about .container2 .second img {
+    max-width: 10px;
+    padding-right: 5px;
+}
+
+#about .container2 p {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+#about .box {
+    max-width: 450px;
+    position: relative;
+    margin-top: 180px;
+    margin-left: -50px;
+
+}
+
+/* Services Css page */
+
+#services {
+    padding-bottom: 50px;
+}
+
+.main-container {
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 35px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.heading-container h5 {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+
+.heading-container h1 {
+    margin-bottom: 20px;
+    margin-left: 100px;
+
+}
+
+.ser-container {
+
+    border: 2px solid black;
+    padding: 20px;
+    width: 250px;
+    margin-right: 45px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+.ser-container:hover {
+    transform: scale(1.1);
+
+}
+
+.ser-container img {
+    max-width: 40px;
+    padding-bottom: 10px;
+
+}
+
+.ser-container h1 {
+    padding-bottom: 10px;
+}
+
+.ser-container p {
+    padding-bottom: 10px;
+
+}
+
+.ser-container a {
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.discover {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.discover p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#services .discover button {
+    margin-left: 48%;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* Pricing Css */
+
+#pricing {
+    width: 100%;
+    margin-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    background-color: #FFFCF3;
+}
+
+#pricing .filter {
+    margin-bottom: 30px;
+
+}
+
+#pricing .filter h3 {
+    text-align: center;
+    padding-bottom: 10px;
+
+
+}
+
+#pricing .filter h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#pricing .filter p {
+    text-align: center;
+}
+
+
+#pricing .filter .s1 {
+    padding: 20px;
+    font-weight: bold;
+}
+
+#pricing .filter .s2 {
+    padding: 10px;
+    color: grey;
+}
+
+#pricing .filter .s3 {
+    padding: 10px;
+    background-color: gold;
+    border-radius: 40px;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#pricing .filter p img {
+    max-width: 19px;
+
+}
+
+
+#pricing .pricing-container {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    gap: 8%;
+
+}
+
+
+#pricing .pricing-container .subprice-container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    transition: 0.8s;
+}
+
+#pricing .pricing-container .subprice-container:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+#pricing .pricing-container .subprice-container:hover .popupmsg {
+    display: block;
+    color: black;
+}
+
+
+#pricing .pricing-container .subprice-container .popupmsg {
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 70px;
+    display: none;
+}
+
+
+
+
+#pricing .pricing-container h4 {
+    top: 100px;
+}
+
+#pricing .pricing-container .subprice-container h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#pricing .pricing-container .subprice-container h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+#pricing .pricing-container .subprice-container h4 {
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    width: 80px;
+    margin-left: 80px;
+    padding: 3px;
+
+}
+
+#pricing .pricing-container .subprice-container button:hover {
+    background-color: lightgreen;
+
+}
+
+
+
+#pricing .pricing-container .subprice-container .s6 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 8px;
+
+}
+
+
+
+#pricing .pricing-container .subprice-container p {
+    padding-bottom: 20px;
+    color: gray;
+
+}
+
+#pricing .pricing-container .subprice-container button {
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 80px 10px 80px;
+    margin-left: 8px;
+    border: none;
+    font-weight: bold;
+
+}
+
+#pricing .pricing-container .subprice-container img {
+    max-width: 8%;
+    padding-right: 8px;
+
+}
+
+/* testimonials css */
+
+#testimonials {
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#testimonials .test {
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+#testimonials .test .t1 {
+    color: lightgrey;
+    font-size: 18px;
+
+}
+
+#testimonials .test p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#testimonials .test-container {
+    display: flex;
+    gap: 30px;
+}
+
+#testimonials .test-container .testsub-container {}
+
+#testimonials .test-container .testsub-container .ts1 {
+    padding-bottom: 15px;
+    max-width: 100px;
+
+}
+
+#testimonials .test-container .testsub-container p {
+    padding-bottom: 15px;
+
+}
+
+#testimonials .test-container .testsub-container .testsub1-container {
+    display: flex;
+    padding-top: 25px;
+
+}
+
+#testimonials .test-container .testsub-container .testsub1-container .ts2 {
+    padding-left: 4px;
+    width: 40px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+#testimonials .test-container .testsub-container .testsub1-container p {
+    padding-top: 10px;
+    padding-left: 8px;
+
+}
+
+#testimonials .test-container .testsub-container .testsub1-container .ts3 {
+    padding-left: 130px;
+    width: 30px;
+    height: 40px;
+    margin-top: 15px;
+
+}
+
+
+/* Contact Us css */
+
+#contact {
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+
+#contact .contact-container {
+    display: flex;
+
+}
+
+#contact .contact-container .contact1 {
+    margin-left: 70px;
+
+}
+
+#contact .contact-container .contact1 .contact-img {
+    max-width: 450px;
+    padding-top: 130px;
+
+}
+
+#contact .contact-container .contact2 {
+    margin-left: 60px;
+
+}
+
+#contact .contact-container .contact2 .cont {
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+#contact .contact-container .contact2 h1 {
+    padding-bottom: 25px;
+
+}
+
+#contact .contact-container .sub-contact {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+
+
+#contact .contact-container .sub-contact .sub-contact1 {}
+
+
+#contact .contact-container .sub-contact .sub-contact1 .phoneimg {
+    padding-bottom: 5px;
+}
+
+
+#contact .contact-container .sub-contact .sub-contact1 h3 {}
+
+
+#contact .contact-container .sub-contact .subcontact1 p {
+    padding-top: 5px;
+
+}
+
+#contact .contact-container .form {}
+
+#contact .contact-container .form .center {
+    display: flex;
+    gap: 30px;
+    margin-left: -10px;
+
+}
+
+#contact .contact-container .form label input {
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+
+}
+
+#contact .contact-container .form label:hover p {
+    transform: translateY(-12px);
+
+}
+
+#contact .contact-container .form label {
+    margin: 10px;
+}
+
+#contact .contact-container .form p {
+    font-weight: bold;
+}
+
+#contact .contact-container .form button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 500px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Community Css */
+
+#community {
+    background-color: white;
+
+}
+
+#community .community-container {
+    text-align: center;
+    margin-top: 200px;
+    background-color: black;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 170px;
+    padding: 140px 150px;
+}
+
+#community .community-container h3 {
+    margin-bottom: 15px;
+    font-size: 250x;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+#community .community-container h1 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+#community .community-container p {
+    color: white;
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 30px;
+
+}
+
+#community .community-container input[type="text"] {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid grey;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+#community .community-container .start-btn {
+    color: white;
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 4px;
+    background-color: greenyellow;
+    color: black;
+    padding: 7px 6px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Fotter css */
+
+/* footer */
+#footer {
+    background-color: #fff;
+    color: #000;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+
+#footer hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin-bottom: 30px;
+    width: 1600px;
+    margin-left: -100px;
+}
+
+#footer .ft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer .ft .ft-1,
+#footer .ft .ft-2,
+#footer .ft .ft-3,
+#footer .ft .ft-4 {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+#footer .ft .ft-1 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+
+#footer .ft .ft-1 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 27px;
+    color: #000;
+}
+
+#footer .ft .ft-2 b,
+#footer .ft .ft-3 b,
+#footer .ft .ft-4 b {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+#footer .ft .ft-2 p,
+#footer .ft .ft-3 p,
+#footer .ft .ft-4 p {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+#footer .ft .ft-4 p i {
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+#footer .ft .ft-4 .icn {
+    margin-top: 40px;
+
+}
+
+#footer .ft .ft-4 .icn i {
+    font-size: 25px;
+    color: #666;
+}
+
+#footer .cr {
+    display: flex;
+    margin-top: 40px;
+}
+
+#footer .cr h6 {
+    font-size: 15px;
+    margin-left: 75px;
+    padding-right: 820px;
+    font-weight: lighter;
+}
+
+#footer .cr p {
+    margin-left: 10px;
+}
